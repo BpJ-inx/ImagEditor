@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.wrapper_img {
+    display: grid;
+    height: 400px;
+}
+
+.loadImg {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    pointer-events: none;
+}
+
+.plug_for_img {
+    background-color: #7064fc;
+    color: black;
+    height: 400px;
+    width: 600px;
+}
